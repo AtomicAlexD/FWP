@@ -1,7 +1,9 @@
 import __builtins__
+from trees import plant_trees
 
-while True:
-    move(East)
-    for i in range(get_world_size()):
-        harvest()
-        move(North)
+def main():
+    plant_trees()
+
+if __name__ == "__main__":
+    main()
+# This code is a simple script that imports a function from another module and executes it.
